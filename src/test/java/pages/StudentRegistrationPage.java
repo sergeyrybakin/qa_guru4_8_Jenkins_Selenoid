@@ -21,7 +21,7 @@ public class StudentRegistrationPage {
             hobby1 = "Sports",
             hobby2 = "Reading",
             hobby3 = "Music",
-            picture = "1.png",
+            picture = "1518521058110646316.jpg",
             currentAddress = "Montenegro 123",
             state = "Uttar Pradesh",
             city = "Merrut";
