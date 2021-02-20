@@ -1,13 +1,11 @@
 package tests;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import pages.StudentRegistrationPage;
 
 class StudentRegistrationFormWithPageObjectsTests extends TestBase {
     StudentRegistrationPage studentRegistrationPage;
 
-    @Disabled
     @Test
     void successfulFillFormTest() {
         studentRegistrationPage = new StudentRegistrationPage();
