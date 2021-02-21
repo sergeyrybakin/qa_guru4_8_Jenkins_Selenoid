@@ -83,6 +83,7 @@ public class StudentRegistrationFormWithFakerTests extends TestBase {
     }
 
     @Test
+    @Tag("negative")
     void negativeFillFormTest() {
         open("https://demoqa.com/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
